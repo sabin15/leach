@@ -71,7 +71,7 @@ Remove-Item D:\ChromeDataP2
  
 
 
-$MPath="C:\Users\"+$username+"\AppData\Roaming\Mozilla\Firefox\Profiles"
+$MPath="C:\Users\"+$username+"\AppData\Local\Mozilla\Firefox\Profiles"
 if(Test-Path $MPath)
 {
 
